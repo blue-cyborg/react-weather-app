@@ -1,7 +1,8 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
     return (
-        <div>Hello from weather</div>
+        <div className="Weather">Hello from weather</div>
         );
 }
