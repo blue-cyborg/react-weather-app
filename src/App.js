@@ -5,7 +5,7 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-      <Weather defaultCity="Rochester" />
+      <Weather defaultCity="New York" />
       <footer>
         This project was coded by {" "}
         <a href="https://fervent-kare-2cbc33.netlify.app/" 
