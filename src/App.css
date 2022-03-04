@@ -1,6 +1,7 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  background-image: url("pexels-dana-tentis-370799.jpg");
 }
 
 .App footer {
