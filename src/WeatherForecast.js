@@ -22,12 +22,12 @@ export default function WeatherForecast(props) {
                   <div className="col" key={index}>
                     <WeatherForecastDay data={dailyForecast} />
                   </div>
-                );
+                 );
               }
             })}
           </div>
         </div>
-    );
+      );
   } else {
     let apiKey = "63b79185d21891dc86fad86aa0ab0b0b";
     let longitude = props.coordinates.lon;
