@@ -66,9 +66,14 @@ export default function Weather(props) {
                         <input type="submit" value="Search" className="btn btn-primary w-100" />
                     </div>
                     <div className="col-2">
-                        <input type="current-location" value="📍" className="btn btn-warning w-100" onClick={displayCurrentLocation} />
+                      <button
+                    type="current-location"
+                    className="btn btn-warning"
+                    onClick={displayCurrentLocation}
+                    > 📍
+                    </button>  
                     </div>
-                </div>
+                  </div>
             </form>
             <WeatherInfo data={weatherData} />
             <WeatherForecast coordinates={weatherData.coordinates}/>
