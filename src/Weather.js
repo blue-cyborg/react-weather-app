@@ -63,12 +63,12 @@ export default function Weather(props) {
                         />
                     </div>
                     <div className="col-2">
-                        <input type="submit" value="Search" className="btn btn-primary w-100" />
+                        <input type="submit" value="🔍" className="btn btn-primary w-100" />
                     </div>
                     <div className="col-2">
                       <button
                     type="current-location"
-                    className="btn btn-warning"
+                    className="btn btn-warning w-100"
                     onClick={displayCurrentLocation}
                     > 📍
                     </button>  
